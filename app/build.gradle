@@ -24,8 +24,9 @@ dependencies {
     // This dependency is used by the application.
     implementation libs.guava
 
-    // Use the Java ASCII Render library for rendering ASCII text.
+    // Use the Java ASCII Render library to render ASCII art.
     implementation 'com.indvd00m.ascii.render:java-ascii-render:2.2.0'
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
